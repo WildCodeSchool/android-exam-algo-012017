@@ -1,13 +1,13 @@
 
 public class Escargot{
 
-	int months;
 	public static int couples(int months){
 		int snailsCouple = 1;
-		for (int i = 1;i <= months ; i++) {
+		for (int i = 2;i <= months ; i = i+2) {
 			snailsCouple = snailsCouple + snailsCouple;
 
 		}
 		return snailsCouple;
 	}
+
 }
