@@ -1,12 +1,12 @@
-public class Foo{
+class Foo{
 	public static int nbescargots(int escargot){
-		escargots = 2;
+		escargot = 2;
+		int nbrEscargotsMois = escargot * 2;
+		int nbrEscargotsAnnee = nbrEscargotsMois * (12 -1);
 		int totalEscargots = 0;
 		for (int i = 0; i < 10; i++) {
-			for(int j = 0; j < 11; j ++){
-				nbrEscargotsMois = escargots * escargots;
-			}
-			totalEscargots = nbrEscargotsMois + nbrEscargotsMois;
+			totalEscargots = nbrEscargotsAnnee + nbrEscargotsAnnee;
+
 		}
 		return totalEscargots;
 	}
