@@ -2,9 +2,7 @@
 
 ##WILD CODE SCHOOL - JANVIER 2017
 
+ça n'est pas le plus optimal, nous pouvons le faire en recurcive mais je ne voulais pas prendre du code internet.
 
-Rappel des commandes junit :
-
-    javac -cp .:junit-4.12.jar FizzbuzzTest.java
-    java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore FizzbuzzTest
+resultat en 10 ans = 5358359254990966640871840
 
