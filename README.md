@@ -3,8 +3,6 @@
 ##WILD CODE SCHOOL - JANVIER 2017
 
 
-Rappel des commandes junit :
+Ribeiro Edwin :
 
-    javac -cp .:junit-4.12.jar FizzbuzzTest.java
-    java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore FizzbuzzTest
-
+Result for 10 Years : 5358359254990966640871840 snails.
