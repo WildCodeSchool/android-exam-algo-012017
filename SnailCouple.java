@@ -1,20 +1,18 @@
 class SnailCouple{
 	//wheeeeeeeeee !!!
-	private boolean major = false;
+	private int age;
 
 	//Constructors
-	public SnailCouple(){}//bébé
-	
-	public SnailCouple(boolean majority){
-		this.major = majority;
-	}
+	public SnailCouple(){
+		this.age = 0;
+	}//bébé
 
-	public void setMajorityToTrue(){
-		this.major = true;
+	public void grow(){
+		this.age++;
 	}
 
 	public boolean isMajor(){
-		return this.major;
+		return this.age > 1;
 	}
 
 }

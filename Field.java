@@ -7,13 +7,12 @@ class Field{
 	public static int loveMachine(int months){
 		snails.clear();
 		//On met notre premier couple dans le Champs
-		snails.add(new SnailCouple(true));
+		snails.add(new SnailCouple());
 
 		//pour chaque mois
-		for (int i = 0; i < months ; i++) {
+		for (int i = 1; i < months; i++) {
 			//on vérifie si il y a des bébé et on les fait grandir
 			growBabySnails(snails);
-
 			//Naissances
 			birthSnails(snails);
 		}
@@ -26,7 +25,7 @@ class Field{
 		for (int j=0; j < snails.size() ;j++ ) {
 			//Si le couple n'est pas majeur Alors on les fait grandir
 				if(!snails.get(j).isMajor()){
-					snails.get(j).setMajorityToTrue();
+					snails.get(j).grow();
 				}
 			}
 	}
